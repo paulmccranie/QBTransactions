@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="57a2bbc6d60841c79aa28dc5927ae699" Name="Diagram1">
+        <EntityTypeShape EntityType="CSIAutomationModel.BillingBatch" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.BillingDetail" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.ChaseTransaction" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.CheckRequest" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.CheckRequestStatusMessage" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.Collector" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.CompanyWatchList" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.CompassCustomerName" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.creditCardRequest" Width="1.5" PointX="9.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.CSIQB" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.CustomerDepositBalanceStatic" Width="1.5" PointX="5.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.ErrorScreenshot" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.IFICompanyName" Width="1.5" PointX="2.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.IFIQB" Width="1.5" PointX="11.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.PDFDataDocsCompositeField" Width="1.5" PointX="11.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.QBCustomerName" Width="1.5" PointX="11.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.QBTransaction" Width="1.5" PointX="11.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.QBTransactionPull" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.Request" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.RequestToUpdateCustomerDepositBalance" Width="1.5" PointX="13.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.StateLookup" Width="1.5" PointX="4.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.StateVendor" Width="1.5" PointX="13.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.sysdiagram" Width="1.5" PointX="6.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CSIAutomationModel.Vendor" Width="1.5" PointX="8.75" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="CSIAutomationModel.FK_BillingDetails_BillingBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="CSIAutomationModel.FK_CheckRequest_Request" ManuallyRouted="false" />
+        <AssociationConnector Association="CSIAutomationModel.FK_CheckRequestStatusMessages_Request" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

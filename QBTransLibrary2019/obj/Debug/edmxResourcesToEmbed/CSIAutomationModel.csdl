@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CSIAutomationModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BillingBatch">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateRan" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ByWhom" Type="String" MaxLength="200" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="BillingDetails" Relationship="Self.FK_BillingDetails_BillingBatch" FromRole="BillingBatch" ToRole="BillingDetails" />
+  </EntityType>
+  <EntityType Name="BillingDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BillingBatchID" Type="Int32" />
+    <Property Name="custID" Type="Int32" />
+    <Property Name="AgencyName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="BillingItem" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Cost" Type="Decimal" Precision="9" Scale="2" />
+    <Property Name="BillingDescription" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DueDate" Type="DateTime" Precision="3" />
+    <Property Name="success" Type="Boolean" />
+    <NavigationProperty Name="BillingBatch" Relationship="Self.FK_BillingDetails_BillingBatch" FromRole="BillingDetails" ToRole="BillingBatch" />
+  </EntityType>
+  <EntityType Name="ChaseTransaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateTransaction" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Vendor" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="RefID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CCReqID" Type="Int32" />
+    <Property Name="IsReconciled" Type="Boolean" Nullable="false" />
+    <Property Name="User" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CheckRequest">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReqID" Type="Int32" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="PayTo" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Purpose" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Amount" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Agency" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CompassUser" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="custID" Type="Int32" />
+    <Property Name="custName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="dateCreated" Type="DateTime" Precision="3" />
+    <Property Name="Success" Type="Boolean" />
+    <Property Name="SentToAccounting" Type="Boolean" />
+    <Property Name="QBCustomerName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="DueDate" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Request" Relationship="Self.FK_CheckRequest_Request" FromRole="CheckRequest" ToRole="Request" />
+  </EntityType>
+  <EntityType Name="CheckRequestStatusMessage">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReqID" Type="Int32" Nullable="false" />
+    <Property Name="ChkReqID" Type="Int32" />
+    <Property Name="Successful" Type="Boolean" Nullable="false" />
+    <Property Name="errorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CheckRequestItemDetail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="BilledToStateStatus" Type="Boolean" />
+    <Property Name="MakeBillableToClientStatus" Type="Boolean" />
+    <Property Name="CreateInvoiceStatus" Type="Boolean" />
+    <Property Name="MarkInvoicePaidStatus" Type="Boolean" />
+    <Property Name="CreateCheckToPayBillStatus" Type="Boolean" />
+    <Property Name="MarkCheckToBePrintedStatus" Type="Boolean" />
+    <Property Name="CheckPrintedStatus" Type="Boolean" />
+    <NavigationProperty Name="Request" Relationship="Self.FK_CheckRequestStatusMessages_Request" FromRole="CheckRequestStatusMessages" ToRole="Request" />
+  </EntityType>
+  <EntityType Name="Collector">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CollectorName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CollectorSSN" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="DateLastRegistered" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DateFirstRegistered" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Jurisdication" Type="String" MaxLength="30" FixedLength="true" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CompanyWatchList">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AlwaysPullTransactions" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CompassCustomerName">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompassName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="qbID" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="creditCardRequest">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateToBeRun" Type="DateTime" Precision="3" />
+    <Property Name="Satisfied" Type="Boolean" Nullable="false" />
+    <Property Name="Agency" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PayTo" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Purpose" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ccNumber" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="serviceItemID" Type="Int64" Nullable="false" />
+    <Property Name="ccAuthorizeNumber" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ccUser" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="custHasBalance" Type="Boolean" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="transactionError" Type="Boolean" />
+    <Property Name="transactionErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserWhoEntered" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Reconciled" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="CSIQB">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CSIQBCustomerName" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="CustomerGUID" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CustomerDepositBalanceStatic">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Balance" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="AsOfDate" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="ErrorScreenshot">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TheUser" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="screenshot" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="custID" Type="Int32" />
+    <Property Name="errorId" Type="Int32" />
+    <Property Name="errorMessage" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="IFICompanyName">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IFICustomerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="qbCustNameID" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="IFIQB">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IFIQBCustomerName" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="CustomerGUID" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PDFDataDocsCompositeField">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="JSONValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PreviewValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QBCustomerName">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DepositAmount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DateLastUpdated" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="QBTransaction">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Num" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Memo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="theXML" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="details" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="InvoiceNum" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="QBTransactionPull">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DatePulled" Type="DateTime" Precision="0" />
+    <Property Name="Balance" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="NumberOfTransactions" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Request">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateCreated" Type="DateTime" Precision="3" />
+    <Property Name="Creator" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateToBeRun" Type="DateTime" Precision="3" />
+    <Property Name="Satisfied" Type="Boolean" />
+    <Property Name="SentToAccounting" Type="Boolean" />
+    <Property Name="transactionError" Type="Boolean" />
+    <NavigationProperty Name="CheckRequests" Relationship="Self.FK_CheckRequest_Request" FromRole="Request" ToRole="CheckRequest" />
+    <NavigationProperty Name="CheckRequestStatusMessages" Relationship="Self.FK_CheckRequestStatusMessages_Request" FromRole="Request" ToRole="CheckRequestStatusMessages" />
+  </EntityType>
+  <EntityType Name="RequestToUpdateCustomerDepositBalance">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="custID" Type="Int32" Nullable="false" />
+    <Property Name="CustomerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Satisfied" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StateLookup">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StateName" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="StateAbbrev" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StateVendor">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StateVendorName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Vendor">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VendorName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_BillingDetails_BillingBatch">
+    <End Role="BillingBatch" Type="Self.BillingBatch" Multiplicity="0..1" />
+    <End Role="BillingDetails" Type="Self.BillingDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BillingBatch">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="BillingDetails">
+        <PropertyRef Name="BillingBatchID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CheckRequest_Request">
+    <End Role="Request" Type="Self.Request" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CheckRequest" Type="Self.CheckRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Request">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CheckRequest">
+        <PropertyRef Name="ReqID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CheckRequestStatusMessages_Request">
+    <End Role="Request" Type="Self.Request" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CheckRequestStatusMessages" Type="Self.CheckRequestStatusMessage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Request">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CheckRequestStatusMessages">
+        <PropertyRef Name="ReqID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CSIAutomationEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BillingBatches" EntityType="Self.BillingBatch" />
+    <EntitySet Name="BillingDetails" EntityType="Self.BillingDetail" />
+    <EntitySet Name="ChaseTransactions" EntityType="Self.ChaseTransaction" />
+    <EntitySet Name="CheckRequests" EntityType="Self.CheckRequest" />
+    <EntitySet Name="CheckRequestStatusMessages" EntityType="Self.CheckRequestStatusMessage" />
+    <EntitySet Name="Collectors" EntityType="Self.Collector" />
+    <EntitySet Name="CompanyWatchLists" EntityType="Self.CompanyWatchList" />
+    <EntitySet Name="CompassCustomerNames" EntityType="Self.CompassCustomerName" />
+    <EntitySet Name="creditCardRequests" EntityType="Self.creditCardRequest" />
+    <EntitySet Name="CSIQBs" EntityType="Self.CSIQB" />
+    <EntitySet Name="CustomerDepositBalanceStatics" EntityType="Self.CustomerDepositBalanceStatic" />
+    <EntitySet Name="ErrorScreenshots" EntityType="Self.ErrorScreenshot" />
+    <EntitySet Name="IFICompanyNames" EntityType="Self.IFICompanyName" />
+    <EntitySet Name="IFIQBs" EntityType="Self.IFIQB" />
+    <EntitySet Name="PDFDataDocsCompositeFields" EntityType="Self.PDFDataDocsCompositeField" />
+    <EntitySet Name="QBCustomerNames" EntityType="Self.QBCustomerName" />
+    <EntitySet Name="QBTransactions" EntityType="Self.QBTransaction" />
+    <EntitySet Name="QBTransactionPulls" EntityType="Self.QBTransactionPull" />
+    <EntitySet Name="Requests" EntityType="Self.Request" />
+    <EntitySet Name="RequestToUpdateCustomerDepositBalances" EntityType="Self.RequestToUpdateCustomerDepositBalance" />
+    <EntitySet Name="StateLookups" EntityType="Self.StateLookup" />
+    <EntitySet Name="StateVendors" EntityType="Self.StateVendor" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Vendors" EntityType="Self.Vendor" />
+    <AssociationSet Name="FK_BillingDetails_BillingBatch" Association="Self.FK_BillingDetails_BillingBatch">
+      <End Role="BillingBatch" EntitySet="BillingBatches" />
+      <End Role="BillingDetails" EntitySet="BillingDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CheckRequest_Request" Association="Self.FK_CheckRequest_Request">
+      <End Role="Request" EntitySet="Requests" />
+      <End Role="CheckRequest" EntitySet="CheckRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CheckRequestStatusMessages_Request" Association="Self.FK_CheckRequestStatusMessages_Request">
+      <End Role="Request" EntitySet="Requests" />
+      <End Role="CheckRequestStatusMessages" EntitySet="CheckRequestStatusMessages" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

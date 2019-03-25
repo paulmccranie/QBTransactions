@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QBTransactionExtractor", "QB EXTR VB Winforms Project\QBTransactionExtractor.vbproj", "{8379CDF2-A4EC-4670-94D8-EAD44DB41240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QBTransLibrary2019", "QBTransLibrary2019\QBTransLibrary2019.csproj", "{60531E16-D74E-451E-9AEF-80812A4CA944}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8379CDF2-A4EC-4670-94D8-EAD44DB41240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8379CDF2-A4EC-4670-94D8-EAD44DB41240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8379CDF2-A4EC-4670-94D8-EAD44DB41240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8379CDF2-A4EC-4670-94D8-EAD44DB41240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60531E16-D74E-451E-9AEF-80812A4CA944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60531E16-D74E-451E-9AEF-80812A4CA944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60531E16-D74E-451E-9AEF-80812A4CA944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60531E16-D74E-451E-9AEF-80812A4CA944}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B97456BD-521D-4CB7-A3ED-3A2CF040CBD7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8379CDF2-A4EC-4670-94D8-EAD44DB41240}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>QBTransactionExtractor.My.MyApplication</StartupObject>
+    <RootNamespace>QBTransactionExtractor</RootNamespace>
+    <AssemblyName>QBTransactionExtractor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>D00A920CDCE72B0ACF6E438B9A09A13D9882ED4A</ManifestCertificateThumbprint>
+    <ManifestKeyFile>QBTransactionExtractor_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ApplicationIcon>Compass.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>R:\Software Staging\QB Transactions App\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\csi-app\shared\Software Staging\QB Transactions App\</InstallUrl>
+    <UpdateUrl>http://localhost/CompassAutomator/</UpdateUrl>
+    <ProductName>CompassAutomator</ProductName>
+    <PublisherName>Cornerstone Support</PublisherName>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>353</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsUrl>\\csisrv1\shared\Crystal Install\</BootstrapperComponentsUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>QBTransactionExtractor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>QBTransactionExtractor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\Microsoft Interop Files\Visual Studio Tools for Office\PIA\Office11\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="nsoftware.IBizQB">
+      <HintPath>..\..\..\Code\4) Compass Automator\ReferenceLibs\nsoftware.IBizQB.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Automator 2.0\CustDepositOnly.Designer.vb">
+      <DependentUpon>CustDepositOnly.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Automator 2.0\CustDepositOnly.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\CustomerDepositProcessor.vb" />
+    <Compile Include="Classes\ImportCustomerDepositAmountsFromExcel.vb" />
+    <Compile Include="Classes\MidnightTimer.vb" />
+    <Compile Include="Classes\qbCustomer.vb" />
+    <Compile Include="Classes\ExcelExporter.vb" />
+    <Compile Include="Classes\QBSpecialProjects.vb" />
+    <Compile Include="DataSets\BondCompassDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BondCompassDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\QBBackupDataSet.Designer.vb">
+      <DependentUpon>QBBackupDataSet.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Classes\AddNewCustomers.vb" />
+    <Compile Include="Classes\AutoProcess.vb" />
+    <Compile Include="Classes\BillingBasics.vb" />
+    <Compile Include="Classes\CustomerDeposit.vb" />
+    <Compile Include="Classes\XMLstuff.vb" />
+    <Compile Include="DataSets\CSIAutomationDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CSIAutomationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CompassCompanyAndServiceItems.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompassCompanyAndServiceItems.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CornerstoneSQLUpsizeDataSet.designer.vb">
+      <DependentUpon>CornerstoneSQLUpsizeDataSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CornerstoneSQLUpsizeDataSet.vb">
+      <DependentUpon>CornerstoneSQLUpsizeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CSIAutomationDataSet.vb">
+      <DependentUpon>CSIAutomationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\SIAudit.Designer.vb">
+      <DependentUpon>SIAudit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\SIAudit.vb">
+      <DependentUpon>SIAudit.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\StatusReportDataSet.Designer.vb" />
+    <Compile Include="Classes\GlobalMain.vb" />
+    <Compile Include="Classes\Mail.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QuickBooks\QBCustomerList.vb" />
+    <Compile Include="DataSets\RegAgentsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegAgentsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\QBTransactionReportingViewModel.vb" />
+    <Compile Include="Views\CompanyWatchList.Designer.vb">
+      <DependentUpon>CompanyWatchList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CompanyWatchList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\QBTransactionReportingCustomerGrid.Designer.vb">
+      <DependentUpon>QBTransactionReportingCustomerGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QBTransactionReportingCustomerGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\StatementGenerator.Designer.vb">
+      <DependentUpon>StatementGenerator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StatementGenerator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\temp.Designer.vb">
+      <DependentUpon>temp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\temp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Automator 2.0\CustDepositOnly.resx">
+      <DependentUpon>CustDepositOnly.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CompanyWatchList.resx">
+      <DependentUpon>CompanyWatchList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\QBTransactionReportingCustomerGrid.resx">
+      <DependentUpon>QBTransactionReportingCustomerGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\StatementGenerator.resx">
+      <DependentUpon>StatementGenerator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\temp.resx">
+      <DependentUpon>temp.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\BondCompassDataSet.xsc">
+      <DependentUpon>BondCompassDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BondCompassDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>BondCompassDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\BondCompassDataSet.xss">
+      <DependentUpon>BondCompassDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\QBBackupDataSet.xsc">
+      <DependentUpon>QBBackupDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\QBBackupDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QBBackupDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\QBBackupDataSet.xss">
+      <DependentUpon>QBBackupDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Dev Docs\The Automator.mmap" />
+    <None Include="DataSets\CSIAutomationDataSet.xsc">
+      <DependentUpon>CSIAutomationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CSIAutomationDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CSIAutomationDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\CSIAutomationDataSet.xss">
+      <DependentUpon>CSIAutomationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CompassCompanyAndServiceItems.xsc">
+      <DependentUpon>CompassCompanyAndServiceItems.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CompassCompanyAndServiceItems.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CompassCompanyAndServiceItems.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\CompassCompanyAndServiceItems.xss">
+      <DependentUpon>CompassCompanyAndServiceItems.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CornerstoneSQLUpsizeDataSet.xsc">
+      <DependentUpon>CornerstoneSQLUpsizeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CornerstoneSQLUpsizeDataSet.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\CornerstoneSQLUpsizeDataSet.xss">
+      <DependentUpon>CornerstoneSQLUpsizeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SIAudit.xsc">
+      <DependentUpon>SIAudit.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SIAudit.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\SIAudit.xss">
+      <DependentUpon>SIAudit.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\StatusReportDataSet.xsc">
+      <DependentUpon>StatusReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\StatusReportDataSet.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\StatusReportDataSet.xss">
+      <DependentUpon>StatusReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Dev Docs\Check Request.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\RegAgentsEntities.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Compass.ico" />
+    <Content Include="Dev Docs\Working On.txt" />
+    <Content Include="Dev Docs\XMLFile1.xml" />
+    <None Include="Resources\PDFicon.jpg" />
+    <None Include="Resources\excel.jpg" />
+    <None Include="Resources\Cornerstone Logo 1.bmp" />
+    <None Include="DataSets\RegAgentsDataSet.xsc">
+      <DependentUpon>RegAgentsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\RegAgentsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RegAgentsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\RegAgentsDataSet.xss">
+      <DependentUpon>RegAgentsDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="EntityFramework">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Syncfusion.Compression.Base">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Syncfusion.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Syncfusion.XlsIO.Base">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QBTransLibrary2019\QBTransLibrary2019.csproj">
+      <Project>{60531e16-d74e-451e-9aef-80812a4ca944}</Project>
+      <Name>QBTransLibrary2019</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

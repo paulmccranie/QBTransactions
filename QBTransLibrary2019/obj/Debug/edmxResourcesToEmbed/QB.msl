@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CSIAutomationModelStoreContainer" CdmEntityContainer="CSIAutomationEntities">
+    <EntitySetMapping Name="QBTransactions">
+      <EntityTypeMapping TypeName="CSIAutomationModel.QBTransaction">
+        <MappingFragment StoreEntitySet="QBTransaction">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Num" ColumnName="Num" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="theXML" ColumnName="theXML" />
+          <ScalarProperty Name="details" ColumnName="details" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerDepositBalanceStatics">
+      <EntityTypeMapping TypeName="CSIAutomationModel.CustomerDepositBalanceStatic">
+        <MappingFragment StoreEntitySet="CustomerDepositBalanceStatic">
+          <ScalarProperty Name="AsOfDate" ColumnName="AsOfDate" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QBCustomerNames">
+      <EntityTypeMapping TypeName="CSIAutomationModel.QBCustomerName">
+        <MappingFragment StoreEntitySet="QBCustomerNames">
+          <ScalarProperty Name="DateLastUpdated" ColumnName="DateLastUpdated" />
+          <ScalarProperty Name="DepositAmount" ColumnName="DepositAmount" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

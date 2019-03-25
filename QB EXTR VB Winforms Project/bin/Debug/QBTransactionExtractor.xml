@@ -1,0 +1,3546 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QBTransactionExtractor
+</name>
+</assembly>
+<members>
+<member name="T:QBTransactionExtractor.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:QBTransactionExtractor.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:QBTransactionExtractor.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:QBTransactionExtractor.My.Resources.Resources.CornerstoneLogo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QBTransactionExtractor.My.Resources.Resources.excel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QBTransactionExtractor.My.Resources.Resources.PDFicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AAsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AgentofRecordDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AncillaryFeesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AuthorizedAmountsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondBillingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondBillingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondBillingVnumsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondInventoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BranchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CheckRequestListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.ChkReqsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CompanyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CompanyInfoforAppDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CompanyNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.FormLettersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.IsBranchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.IssuesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.LetterFieldsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.LettersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.OwnersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.QBFilesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.RenewalBillingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.ReportsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmListServiceItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmServiceItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmUsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmWorkHistoryItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.SQLQueuesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.StateInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.StatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.SuretyProvidersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.Tax_InfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.theLettersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.WorkingBilledAndPaidDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.WorkingBilledAndPaidDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AAsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AgentofRecordRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AncillaryFeesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AuthorizedAmountsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondBillingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondBillingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondBillingVnumsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondInventoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BranchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CheckRequestListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.ChkReqsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CompanyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CompanyInfoforAppRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CompanyNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.FormLettersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.IsBranchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.IssuesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.LetterFieldsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.LettersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.OwnersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.QBFilesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.RenewalBillingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.ReportsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmListServiceItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmServiceItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmUsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmWorkHistoryItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.SQLQueuesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.StateInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.StatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.SuretyProvidersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.Tax_InfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.theLettersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.WorkingBilledAndPaidRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.WorkingBilledAndPaidDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AAsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AgentofRecordRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AncillaryFeesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.AuthorizedAmountsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondBillingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondBillingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondBillingVnumsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BondInventoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.BranchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CheckRequestListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.ChkReqsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CompanyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CompanyInfoforAppRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.CompanyNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.FormLettersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.IsBranchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.IssuesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.LetterFieldsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.LettersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.OwnersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.QBFilesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.RenewalBillingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.ReportsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmListServiceItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmServiceItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmUsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.rmWorkHistoryItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.SQLQueuesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.StateInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.StatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.SuretyProvidersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.Tax_InfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.theLettersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.WorkingBilledAndPaidRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSet.WorkingBilledAndPaidDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.AAsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.AgentofRecordTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.AncillaryFeesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.AuthorizedAmountsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.BondBillingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.BondBillingDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.BondBillingVnumsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.BondInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.BondInventoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.BranchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.CheckRequestListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.ChkReqsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.CompanyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.CompanyInfoforAppTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.CompanyNameTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.FormLettersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.IsBranchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.IssuesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.LetterFieldsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.LettersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.OwnersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.QBFilesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.RenewalBillingDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.ReportsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.rmListServiceItemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.rmServiceItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.rmUsersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.rmWorkHistoryItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.SQLQueuesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.StateInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.StatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.SuretyProvidersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.Tax_InfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.theLettersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.WorkingBilledAndPaidTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.WorkingBilledAndPaidDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.BondCompassDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(QBTransactionExtractor.BondCompassDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.BondCompassDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(QBTransactionExtractor.BondCompassDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.BondCompassDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(QBTransactionExtractor.BondCompassDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.BondCompassDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.BondCompassDataSetTableAdapters.TableAdapterManager.UpdateAll(QBTransactionExtractor.BondCompassDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.BondCompassDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.QBBackupDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.QBBackupDataSet.ItemListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.QBBackupDataSet.ItemListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.QBBackupDataSet.ItemListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.QBBackupDataSetTableAdapters.ItemListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.QBBackupDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.QBBackupDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(QBTransactionExtractor.QBBackupDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.QBBackupDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(QBTransactionExtractor.QBBackupDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.QBBackupDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(QBTransactionExtractor.QBBackupDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.QBBackupDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.QBBackupDataSetTableAdapters.TableAdapterManager.UpdateAll(QBTransactionExtractor.QBBackupDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.QBBackupDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.QBBackupDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CheckRequestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CompassCustomerNamesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.QBCustomerNamesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.RequestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.VendorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.StateVendorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.QBTransactionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CheckRequestStatusMessagesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.RequestToUpdateCustomerDepositBalanceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CompassAndQBNamesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.creditCardRequestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.BillingBatchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.BillingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.StateLookupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.IFICompanyNamesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.QBTransactionPullDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CompanyWatchListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CustomerDepositBalanceStaticDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CheckRequestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CompassCustomerNamesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.QBCustomerNamesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.RequestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.VendorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.StateVendorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.QBTransactionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CheckRequestStatusMessagesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.RequestToUpdateCustomerDepositBalanceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CompassAndQBNamesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.creditCardRequestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.BillingBatchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.BillingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.StateLookupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.IFICompanyNamesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.QBTransactionPullRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CompanyWatchListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CustomerDepositBalanceStaticRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CheckRequestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CompassCustomerNamesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.QBCustomerNamesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.RequestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.VendorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.StateVendorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.QBTransactionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CheckRequestStatusMessagesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.RequestToUpdateCustomerDepositBalanceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CompassAndQBNamesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.creditCardRequestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.BillingBatchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.BillingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.StateLookupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.IFICompanyNamesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.QBTransactionPullRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CompanyWatchListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSet.CustomerDepositBalanceStaticRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.CheckRequestTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.CompassCustomerNamesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.QBCustomerNamesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.RequestTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.VendorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.StateVendorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.QBTransactionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.CheckRequestStatusMessagesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.RequestToUpdateCustomerDepositBalanceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.CompassAndQBNamesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.creditCardRequestTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.BillingBatchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.BillingDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.StateLookupTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.IFICompanyNamesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.QBTransactionPullTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.CompanyWatchListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.CustomerDepositBalanceStaticTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(QBTransactionExtractor.CSIAutomationDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(QBTransactionExtractor.CSIAutomationDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(QBTransactionExtractor.CSIAutomationDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.TableAdapterManager.UpdateAll(QBTransactionExtractor.CSIAutomationDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CSIAutomationDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.CompanyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.rmListServiceItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.rmServiceItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.rmWorkHistoryItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.AutomationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.CompanyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.rmListServiceItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.rmServiceItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.rmWorkHistoryItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.AutomationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.CompanyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.rmListServiceItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.rmServiceItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.rmWorkHistoryItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItems.AutomationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.CompanyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.rmListServiceItemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.rmServiceItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.rmWorkHistoryItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.AutomationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.TableAdapterManager.UpdateUpdatedRows(QBTransactionExtractor.CompassCompanyAndServiceItems,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.TableAdapterManager.UpdateInsertedRows(QBTransactionExtractor.CompassCompanyAndServiceItems,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.TableAdapterManager.UpdateDeletedRows(QBTransactionExtractor.CompassCompanyAndServiceItems,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.TableAdapterManager.UpdateAll(QBTransactionExtractor.CompassCompanyAndServiceItems)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CompassCompanyAndServiceItemsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AddressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AttyInfoBackupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AZandNVDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.BankInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.BranchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ChkReqsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CompanyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CompanyAssessmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FormLettersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Good_StandingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.IsBranchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.IssuesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.LetterFieldsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.MailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.MembershipsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.NameChangesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.OwnersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Parent_InfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.PhoneBookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.PresidentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ReferencesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.RenewalStatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ReportsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmLetterQueueDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmListActivityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmListRequirementsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmListServiceItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmRequirementDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmServiceItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmWorkHistoryItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.SecondaryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.SecretaryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.SelfDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spCompanyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.StateAssessmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.StatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Switchboard_ItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Tax_InfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.TreasurerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.VPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.WebSitesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillAttyByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillBankInfoByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillCompanyAssessmentByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillCompanyByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillDirectorsByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillFormLettersByNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillGoodStandingByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillManagerByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillMembershipsByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillNameChangesByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillOwnersByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillParentInfoByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillReferencesByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillSIByPastCurrentReminderDatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillTaxInfoByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillAllUnsatisfiedSIDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillCurrentRemindersByAssigneeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillNotesByCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillNotesByCustIDandSearchStringDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillNotesByServiceIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIbyAssigneeBetweenDatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIByAssigneesBetweenStartandEndDateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIbyCustIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIByCustIDwithBlankDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIByRecentlyApprovedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIbyUniqueNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmServiceItemQueueDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ComplianceTableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.IssueCategoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CompanyListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ManagerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CheckRequestListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FaxDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.LettersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmUsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.RenewalSIDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ErrorLogDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ErrorLog1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ErrorLog2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AttyInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ServiceItemsForLetterReqDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.DirectorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AutomationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AutomationNotifiedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AddressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AttyInfoBackupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AZandNVRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.BankInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.BranchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ChkReqsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CompanyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CompanyAssessmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FormLettersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Good_StandingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.IsBranchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.IssuesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.LetterFieldsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.MailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.MembershipsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.NameChangesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.OwnersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Parent_InfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.PhoneBookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.PresidentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ReferencesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.RenewalStatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ReportsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmLetterQueueRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmListActivityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmListRequirementsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmListServiceItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmRequirementRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmServiceItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmWorkHistoryItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.SecondaryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.SecretaryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.SelfRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spCompanyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.StateAssessmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.StatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Switchboard_ItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Tax_InfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.TreasurerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.VPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.WebSitesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillAttyByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillBankInfoByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillCompanyAssessmentByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillCompanyByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillDirectorsByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillFormLettersByNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillGoodStandingByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillManagerByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillMembershipsByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillNameChangesByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillOwnersByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillParentInfoByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillReferencesByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillSIByPastCurrentReminderDatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillTaxInfoByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillAllUnsatisfiedSIRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillCurrentRemindersByAssigneeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillNotesByCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillNotesByCustIDandSearchStringRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillNotesByServiceIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIbyAssigneeBetweenDatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIByAssigneesBetweenStartandEndDateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIbyCustIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIByCustIDwithBlankRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIByRecentlyApprovedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIbyUniqueNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmServiceItemQueueRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ComplianceTableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.IssueCategoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CompanyListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ManagerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CheckRequestListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FaxRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.LettersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmUsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.RenewalSIRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ErrorLogRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ErrorLog1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ErrorLog2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AttyInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ServiceItemsForLetterReqRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.DirectorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AutomationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AutomationNotifiedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AddressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AttyInfoBackupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AZandNVRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.BankInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.BranchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ChkReqsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CompanyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CompanyAssessmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FormLettersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Good_StandingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.IsBranchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.IssuesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.LetterFieldsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.MailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.MembershipsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.NameChangesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.OwnersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Parent_InfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.PhoneBookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.PresidentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ReferencesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.RenewalStatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ReportsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmLetterQueueRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmListActivityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmListRequirementsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmListServiceItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmRequirementRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmServiceItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmWorkHistoryItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.SecondaryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.SecretaryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.SelfRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spCompanyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.StateAssessmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.StatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Switchboard_ItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.Tax_InfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.TreasurerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.VPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.WebSitesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillAttyByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillBankInfoByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillCompanyAssessmentByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillCompanyByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillDirectorsByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillFormLettersByNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillGoodStandingByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillManagerByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillMembershipsByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillNameChangesByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillOwnersByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillParentInfoByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillReferencesByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillSIByPastCurrentReminderDatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FillTaxInfoByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillAllUnsatisfiedSIRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillCurrentRemindersByAssigneeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillNotesByCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillNotesByCustIDandSearchStringRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillNotesByServiceIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIbyAssigneeBetweenDatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIByAssigneesBetweenStartandEndDateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIbyCustIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIByCustIDwithBlankRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIByRecentlyApprovedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.spFillSIbyUniqueNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmServiceItemQueueRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ComplianceTableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.IssueCategoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CompanyListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ManagerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.CheckRequestListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.FaxRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.LettersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.rmUsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.RenewalSIRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ErrorLogRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ErrorLog1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ErrorLog2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AttyInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.ServiceItemsForLetterReqRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.DirectorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AutomationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSet.AutomationNotifiedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.AddressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.AttyInfoBackupTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.AZandNVTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.BankInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.BranchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.ChkReqsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.CompanyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.CompanyAssessmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FormLettersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.Good_StandingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.IsBranchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.IssuesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.LetterFieldsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.MailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.MembershipsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.NameChangesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.OwnersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.Parent_InfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.PhoneBookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.PresidentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.ReferencesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.RenewalStatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.ReportsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.rmLetterQueueTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.rmListActivityTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.rmListRequirementsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.rmListServiceItemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.rmRequirementTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.rmServiceItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.rmWorkHistoryItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.SecondaryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.SecretaryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.SelfTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spCompanyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.StateAssessmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.StatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.Switchboard_ItemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.Tax_InfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.TreasurerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.VPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.WebSitesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillAttyByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillBankInfoByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillCompanyAssessmentByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillCompanyByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillDirectorsByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillFormLettersByNameTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillGoodStandingByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillManagerByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillMembershipsByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillNameChangesByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillOwnersByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillParentInfoByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillReferencesByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillSIByPastCurrentReminderDatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FillTaxInfoByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillAllUnsatisfiedSITableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillCurrentRemindersByAssigneeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillNotesByCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillNotesByCustIDandSearchStringTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillNotesByServiceIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillSIbyAssigneeBetweenDatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillSIByAssigneesBetweenStartandEndDateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillSIbyCustIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillSIByCustIDwithBlankTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillSIByRecentlyApprovedTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.spFillSIbyUniqueNameTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.rmServiceItemQueueTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.ComplianceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.IssueCategoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.CompanyListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.ManagerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.CheckRequestListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.FaxTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.LettersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.rmUsersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.RenewalSITableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.ErrorLogTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.ErrorLog1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.ErrorLog2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.AttyInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.serviceItemsforLetterReqTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.DirectorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.AutomationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.AutomationNotifiedTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.CornerstoneSQLUpsizeDataSetTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.SIAudit">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.SIAudit.SIAuditDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.SIAudit.rmServiceItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.SIAudit.SIAuditRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.SIAudit.rmServiceItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.SIAudit.SIAuditRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.SIAudit.rmServiceItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.SIAuditTableAdapters.SIAuditTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.SIAuditTableAdapters.rmServiceItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.CompanyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.CompanyAssessmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.rmServiceItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.SIAuditDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.StateAssessmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.PresidentEmailAddressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.CompanyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.CompanyAssessmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.rmServiceItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.SIAuditRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.StateAssessmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.PresidentEmailAddressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.CompanyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.CompanyAssessmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.rmServiceItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.SIAuditRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.StateAssessmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSet.PresidentEmailAddressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSetTableAdapters.CompanyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSetTableAdapters.CompanyAssessmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSetTableAdapters.rmServiceItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSetTableAdapters.SIAuditTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSetTableAdapters.StateAssessmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.StatusReportDataSetTableAdapters.PresidentEmailAddressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.AddressDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.AgencyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.InventoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.JurisdictionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.JurisdictionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.RenewalClientsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.ServiceItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.ServiceItemTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.CSCBillingItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.ResidentManagersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.AddressRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.AgencyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.InventoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.JurisdictionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.JurisdictionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.RenewalClientsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.ServiceItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.ServiceItemTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.CSCBillingItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.ResidentManagersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.AddressRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.AgencyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.InventoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.JurisdictionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.JurisdictionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.RenewalClientsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.ServiceItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.ServiceItemTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.CSCBillingItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSet.ResidentManagersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.AddressTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.AgencyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.InventoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.JurisdictionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.JurisdictionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.RenewalClientsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.ServiceItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.ServiceItemTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.CSCBillingItemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.ResidentManagersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.RegAgentsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(QBTransactionExtractor.RegAgentsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.RegAgentsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(QBTransactionExtractor.RegAgentsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.RegAgentsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(QBTransactionExtractor.RegAgentsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.RegAgentsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QBTransactionExtractor.RegAgentsDataSetTableAdapters.TableAdapterManager.UpdateAll(QBTransactionExtractor.RegAgentsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QBTransactionExtractor.RegAgentsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

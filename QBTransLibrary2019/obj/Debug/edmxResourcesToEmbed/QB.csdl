@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CSIAutomationModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="QBTransaction">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Num" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Memo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="theXML" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="details" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="CSIAutomationEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="QBTransactions" EntityType="Self.QBTransaction" />
+    <EntitySet Name="CustomerDepositBalanceStatics" EntityType="CSIAutomationModel.CustomerDepositBalanceStatic" />
+    <EntitySet Name="QBCustomerNames" EntityType="CSIAutomationModel.QBCustomerName" />
+  </EntityContainer>
+  <EntityType Name="CustomerDepositBalanceStatic">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="CustomerName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Balance" Type="Decimal" Nullable="false" Precision="8" Scale="2" />
+    <Property Name="AsOfDate" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="QBCustomerName">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DepositAmount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DateLastUpdated" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,86 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="CornerstoneSQLUpsizeConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source="CSI-SQL, 1500";Initial Catalog=CornerstoneSQLTake2;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source="CSI-SQL, 1500";Initial Catalog=CornerstoneSQLTake2;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="CSIAutomationConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source="CSI-SQL, 1500";Initial Catalog=CSIAutomation;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source="CSI-SQL, 1500";Initial Catalog=CSIAutomation;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="TheQBFileLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not Set</Value>
+    </Setting>
+    <Setting Name="QBDataConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=|DataDirectory|\QBData.sdf&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Microsoft.SqlServerCe.Client.3.5&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=|DataDirectory|\QBData.sdf</Value>
+    </Setting>
+    <Setting Name="QBBackupConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source="CSI-SQL, 1500";Initial Catalog=QBBackup;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source="CSI-SQL, 1500";Initial Catalog=QBBackup;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="BondCompassConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source="CSI-SQL, 1500";Initial Catalog=BondCompassTemp2;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source="CSI-SQL, 1500";Initial Catalog=BondCompassTemp2;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="RegAgentsConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source="CSI-SQL, 1500";Initial Catalog=RegAgents;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source="CSI-SQL, 1500";Initial Catalog=RegAgents;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="QBLiveConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Offline=False;Application Name=CompassAutomator;Company File="\\CSI-APP\Quick Books\Cornerstone.QBW"&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.RSSBus.QuickBooks&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Offline=False;Application Name=CompassAutomator;Company File="\\CSI-APP\Quick Books\Cornerstone.QBW"</Value>
+    </Setting>
+    <Setting Name="RegAgentBillingLineDescription" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"Registered Agent Service"</Value>
+    </Setting>
+    <Setting Name="ResMgrLineItemDescription" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resident Manager Service - 2nd Quarter 2012</Value>
+    </Setting>
+    <Setting Name="TheMassBilling" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThisApplicationName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">QB Transaction Extractor</Value>
+    </Setting>
+    <Setting Name="TenDayPDFFileLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\CSI-APP\shared\pdf docs\</Value>
+    </Setting>
+    <Setting Name="ProductionManagerEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dbickford@cornerstonesupport.com</Value>
+    </Setting>
+    <Setting Name="StaticBalanceDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2015-01-01</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
