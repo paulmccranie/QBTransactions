@@ -57,28 +57,12 @@ Public Class QBTransactionReportingCustomerGrid
 
     Private Sub QBTransactionReportingCustomerGrid_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Cursor = Cursors.WaitCursor
-        'KillQuickbooks()
         Try
-            ' Timer stuff
-            '      Target = GetNextMaintenanceTarget(MaintenanceTime)
-
-            '    dgvCustomers.Font = New Font(lblStatus.Font, FontStyle.Regular)
-
             LoadWatchListCompanies()
-
         Catch ex As Exception
-            'MessageBox.Show(ex.Message)
         End Try
         Me.Cursor = Cursors.Default
     End Sub
-
-    'Private Function GetNextMaintenanceTarget(ByVal time As TimeSpan) As DateTime
-    '    Dim dt As DateTime = DateTime.Today.Add(time)
-    '    If DateTime.Now > dt Then
-    '        dt = dt.AddDays(1) ' already past target time for today, next start is tomorrow
-    '    End If
-    '    Return dt
-    'End Function
 
     Private Sub LoadWatchListCompanies()
         lblStatus.Text = "Requesting Customer data, please wait ..."
